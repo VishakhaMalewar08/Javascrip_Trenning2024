@@ -25,7 +25,7 @@
 
 // let str="hello world";
 // console.log(str[0]);
-// console.log(str.charAt(0));
+// console.log(str.charAt(3));
 // console.log(str.at(-3));
 
 // let str="Hello";
@@ -56,7 +56,7 @@
 // console.log(str.indexOf("o"));
 
 
-//let str="This is a string";
+// let str="This is a string";
 // console.log(str.indexOf("h"));
 // console.log(str.indexOf("is"));
 
@@ -64,8 +64,8 @@
 // let str="this is a string";
 // console.log(str.lastIndexOf("i"));
 
-//let str="this is a string";
-//console.log(str.indexOf("this"));
+// let str="this is a string";
+// console.log(str.indexOf("this"));
 
 // let str="this is a string";
 // if(str.indexOf("This") ==  0){  //-1 work as a false
@@ -73,7 +73,7 @@
 // }
 
 //  let str="this is a string";
-// if(str.indexOf("this") !== -1){  //-1 work as a false
+// if(str.indexOf("it") !== -1){  //-1 work as a false
 //     console.log("Found");
 // }
 
@@ -81,16 +81,16 @@
 
 //includes()==>if the word presents that sentance that time return true otherwise false.
 
-// let str ="This is a string"
-// console.log(str.includes("This"));
-// console.log(str.includes("this"));
+let str ="This is a string"
+console.log(str.includes("This"));
+console.log(str.includes("this"));
 
 
-// console.log("Hello".includes("H"));
-// console.log("Hello".includes("l"));
-// console.log("Hello".includes("o",4));
-// console.log("Hello".includes("o",2));
-// console.log("Hello".includes("H",1));
+console.log("Hello".includes("H"));
+console.log("Hello".includes("l"));
+console.log("Hello".includes("o",4));
+console.log("Hello".includes("o",2));
+console.log("Hello".includes("H",1));
 
 //startWith()==>return true if a string starts  with a specified string ,otherwise false.
 
