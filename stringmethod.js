@@ -81,16 +81,16 @@
 
 //includes()==>if the word presents that sentance that time return true otherwise false.
 
-let str ="This is a string"
-console.log(str.includes("This"));
-console.log(str.includes("this"));
+// let str ="This is a string"
+// console.log(str.includes("This"));
+// console.log(str.includes("this"));
 
 
-console.log("Hello".includes("H"));
-console.log("Hello".includes("l"));
-console.log("Hello".includes("o",4));
-console.log("Hello".includes("o",2));
-console.log("Hello".includes("H",1));
+// console.log("Hello".includes("H"));
+// console.log("Hello".includes("l"));
+// console.log("Hello".includes("o",4));
+// console.log("Hello".includes("o",2));
+// console.log("Hello".includes("H",1));
 
 //startWith()==>return true if a string starts  with a specified string ,otherwise false.
 
@@ -110,13 +110,13 @@ console.log("Hello".includes("H",1));
 
 //slice()==> extracts a part of a string and returns a new string.
 
- //let str ="this is a string";
-//console.log(str.slice(1,3));
-//console.log(str.slice(5,7));
+//  let str ="this is a string";
+// console.log(str.slice(1,3));
+// console.log(str.slice(5,7));
 // console.log(str.slice(0));
-// console.log(str.slice(5));
-//console.log(str.slice(5,-6));
-//console.log(str.slice(3,0));
+// console.log(str.slice(6));
+// console.log(str.slice(5,-6));
+// console.log(str.slice(3,6));
 
 
 
@@ -124,7 +124,7 @@ console.log("Hello".includes("H",1));
 
 // let str ="this is a string";
 // console.log(str.substring(0,3));
-// console.log(str.substring(3,0));
+// console.log(str.substring(3,7));
 
 
 //substr()==>extract the charectors from a string,beginning at a specified start position ,and through the  specified number of charectors.
@@ -145,8 +145,11 @@ console.log("Hello".includes("H",1));
 
 
 //trim()==> removes whitespace form both ends of  a srtings.
-// let str ="    hello wolrd";
+// let str ="    hello wolrd vish    ";
 // console.log(str.trim());
+//  console.log(str.trimStart());
+//   console.log(str.trimEnd());
+
 
 
 //trimstart()==> removes whitespace from the beginning of a strings.
@@ -161,13 +164,13 @@ console.log("Hello".includes("H",1));
 // console.log(str.trimEnd());
 
 
-//padstart()==> pads a string with another string, until the resulting string reaches the  given lenght.
+//padstart()==> pads a string with another string, until the resulting string reaches the  given length.
 
-// let str ="5";
+// let str ="6";
 // console.log(str.padStart(4,"7"));
 // console.log(str.padStart(4,"1"));
-// console.log(str.padStart(4,"a"));
-// console.log(str.padStart(5,"ab"));
+// console.log(str.padStart(5,"a"));
+// console.log(str.padStart(7,"b"));
 
 // let str="Hello";
 // console.log(str.padStart(6,"a"));
@@ -181,10 +184,10 @@ console.log("Hello".includes("H",1));
 // console.log(str.padEnd(4,"a"));
 // console.log(str.padEnd(5,"ab"));
 
-//repeat() ==>
+//repeat() ==> reapete new string with a specified number of copied 
 
 // let str="hello";
-// console.log();
+// console.log(str.repeat(0));
 
 
 //replace()==> searches a string for a specified value ,or a regular expression ,and returns a new string when the specified valued are replaced
@@ -197,6 +200,3 @@ console.log("Hello".includes("H",1));
 // let str="hello world world";
 // console.log(str.replace("world","vishakha"));
 // console.log(str.replaceAll("world","vishakha"));
-
-
-

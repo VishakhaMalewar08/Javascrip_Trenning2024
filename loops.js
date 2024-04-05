@@ -7,13 +7,13 @@
    
 //      code block:
 // }
-// // for(let i=0;i<=5;i++){
-// //     console.log(i);
-// // }
-// console.log(i);
+// for(let i=0;i<=5;i++){
+//     console.log(i);
+// }
+//console.log(i);
 
 // let i=0;
-// for(let i=0;i<5;i++){
+// for(let i=0;i<=5;i++){
 //     console.log(i);
 // }
 // console.log(i);
